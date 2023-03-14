@@ -1,0 +1,79 @@
+1. Analisa Program Waktu.java
+
+Program di atas adalah contoh implementasi kelas Waktu dalam bahasa pemrograman Java. Kelas ini memiliki tiga atribut yaitu jam, menit, dan detik yang mewakili waktu dalam jam, menit, dan detik. Konstruktor Waktu digunakan untuk menginisialisasi nilai atribut jam, menit, dan detik saat objek dari kelas Waktu dibuat.
+
+Metode main di dalam kelas Waktu digunakan untuk melakukan pengujian dan memanggil metode perbedaan. Dalam metode main, dua objek Waktu (mulai dan selesai) dibuat dengan waktu awal dan akhir masing-masing. Kemudian, metode perbedaan dipanggil dengan dua objek tersebut sebagai argumen. Hasil dari metode perbedaan disimpan dalam variabel selisih, yang kemudian dicetak di layar menggunakan System.out.printf().
+
+Metode perbedaan di dalam kelas Waktu digunakan untuk menghitung selisih waktu antara dua objek Waktu. Metode ini mengambil dua objek Waktu sebagai argumen dan mengembalikan objek Waktu baru yang merupakan selisih waktu. Metode perbedaan menghitung selisih detik, menit, dan jam antara dua waktu dengan menggunakan beberapa operasi aritmatika. Objek Waktu baru yang berisi selisih waktu tersebut kemudian dikembalikan oleh metode perbedaan.
+
+Dalam contoh ini, output yang dihasilkan adalah "Selisih Waktu: 12:34:55 - 8:12:15 = 4:22:40", yang merupakan selisih waktu antara dua objek Waktu (mulai dan selesai) yang dihitung menggunakan metode perbedaan.
+
+		+-----------------------------------------------------+
+            |                                                     |
+            |                        main                         |
+            |                                                     |
+            +-----------------------------------------------------+
+                                  |
+                                  |
+                                  v
+            +-----------------------------------------------------+
+            |                                                     |
+            |                    membuat objek                    |
+            |                                                     |
+            +-----------------------------------------------------+
+                                  |
+                                  |
+                                  v
+            +-----------------------------------------------------+
+            |                                                     |
+            |                    memanggil method                 |
+            |                                                     |
+            +-----------------------------------------------------+
+                                  |
+                                  |
+                                  v
+            +-----------------------------------------------------+
+            |                                                     |
+            |                   method perbedaan                  |
+            |                                                     |
+            +-----------------------------------------------------+
+
+
+
+2. Analisa Program Complex.java
+
+Program di atas adalah contoh implementasi kelas Complex dalam bahasa pemrograman Java. Kelas ini memiliki dua atribut yaitu real dan imag yang mewakili bilangan kompleks. Konstruktor Complex digunakan untuk menginisialisasi nilai atribut real dan imag saat objek dari kelas Complex dibuat.
+
+Metode main di dalam kelas Complex digunakan untuk melakukan pengujian dan memanggil metode add. Dalam metode main, dua objek Complex (n1 dan n2) dibuat dengan nilai awal masing-masing (2.3, 4.5) dan (3.4, 5.0). Kemudian, metode add dipanggil dengan dua objek tersebut sebagai argumen. Hasil dari metode add disimpan dalam variabel temp, yang kemudian dicetak di layar menggunakan System.out.printf().
+
+Metode add di dalam kelas Complex digunakan untuk menjumlahkan dua bilangan kompleks. Metode ini mengambil dua objek Complex sebagai argumen dan mengembalikan objek Complex baru yang merupakan hasil penjumlahan. Metode add menghitung bilangan real dan imag dari hasil penjumlahan dan menyimpannya dalam objek Complex baru. Objek Complex baru tersebut kemudian dikembalikan oleh metode add.
+
+Dalam contoh ini, output yang dihasilkan adalah "Sum = 5.7 + 9.5i", yang merupakan hasil penjumlahan dari dua objek Complex (2.3 + 4.5i) dan (3.4 + 5.0i).
+
+Complex class
+├─ real: double
+├─ imag: double
+├─ Complex(real: double, imag: double)
+└─ main(args: String[]): void
+   ├─ n1: Complex
+   │   ├─ real: 2.3
+   │   └─ imag: 4.5
+   ├─ n2: Complex
+   │   ├─ real: 3.4
+   │   └─ imag: 5.0
+   ├─ temp: Complex
+   │   ├─ real: 0.0
+   │   └─ imag: 0.0
+   └─ add(n1: Complex, n2: Complex): Complex
+       ├─ temp: Complex
+       │   ├─ real: 0.0
+       │   └─ imag: 0.0
+       └─ temp.real: 5.7
+           temp.imag: 9.5
+
+Pada program ini, terdapat class Complex yang memiliki dua atribut yaitu real dan imag yang merepresentasikan bilangan kompleks. Kemudian, pada method main, objek n1 dan n2 dibuat dengan menggunakan konstruktor Complex. Objek temp juga dibuat untuk menampung hasil operasi penjumlahan dari objek n1 dan n2. Pada method add, objek temp juga dibuat untuk menampung hasil penjumlahan antara atribut real dan imag dari objek n1 dan n2. Setelah itu, nilai atribut real dan imag dari objek temp diupdate dengan hasil penjumlahan tersebut. Hasil dari method add kemudian di-return dan disimpan pada variabel temp pada method main. Terakhir, hasil penjumlahan tersebut ditampilkan pada layar dengan menggunakan System.out.printf.
+
+
+
+
+

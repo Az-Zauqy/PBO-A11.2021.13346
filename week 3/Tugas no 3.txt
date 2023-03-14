@@ -1,0 +1,7 @@
+Variabel detik yang ada di dalam kelas Waktu dan yang ada di dalam konstruktor Waktu sebenarnya sama. Kedua variabel tersebut merujuk pada atribut detik yang didefinisikan di dalam kelas Waktu.
+
+Pada konstruktor Waktu, ketika objek Waktu dibuat, kita memasukkan nilai jam, menit, dan detik sebagai parameter. Kemudian, nilai dari parameter tersebut di-assign ke atribut jam, menit, dan detik yang ada di dalam kelas Waktu menggunakan kata kunci this.
+
+Dengan kata lain, detik di dalam konstruktor Waktu digunakan untuk menginisialisasi nilai dari atribut detik pada objek Waktu saat objek tersebut dibuat. Sedangkan detik di dalam kelas Waktu adalah atribut detik itu sendiri yang digunakan untuk menyimpan nilai detik pada objek Waktu.
+
+Perlu diperhatikan bahwa nama variabel yang sama (seperti detik di sini) dapat digunakan pada level yang berbeda dalam kelas (seperti di konstruktor dan di atribut kelas), dan jika hal itu terjadi, variabel yang digunakan akan tergantung pada konteks di mana variabel tersebut digunakan.
